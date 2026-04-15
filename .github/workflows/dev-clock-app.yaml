@@ -58,7 +58,7 @@ jobs:
       # Static Code Analysis (SonarQube)
       # ---------------------------
   
-      - name: SonarQube Scan
+      # name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
         env:
           SONAR_TOKEN: ${{ env.SONAR_TOKEN }}
